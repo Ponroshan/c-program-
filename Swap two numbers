@@ -1,0 +1,13 @@
+# c-program-
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("enter two numbers");
+scanf("%d%d",&a&b);
+a=b;
+b=c;
+c=a;
+printf("after swapping the value of a is %d and b is %d",a,b);
+return 0;
+}
